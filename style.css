@@ -7,7 +7,7 @@
 
 body {
   background: #fff;
-  color: #000;
+  color: #212832;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -15,7 +15,7 @@ body,
 input,
 button {
   font-size: 16px;
-  font-family: "sans-serif";
+  font-family: "Poppins", "sans-serif";
 }
 a {
   text-decoration: none;
@@ -29,10 +29,15 @@ button {
   max-width: 1160px;
   margin: 48px auto;
 }
+header {
+  position: relative;
+}
 .header__nav {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 2;
 }
 .header__nav_links {
   display: flex;
@@ -41,19 +46,91 @@ button {
   width: 823px;
   font-family: "Poppins";
 }
-.header__nav_links-singup{
-  border: 1px solid  #212832;
+.header__nav_links-singup {
+  border: 1px solid #212832;
   border-radius: 5px;
   padding: 6px 18px;
   transition: all 0.5s;
 }
-.header__nav_links-singup:hover{
-  background: #EBEBEB;
+.header__nav_links-singup:hover {
+  background: #ebebeb;
 }
-.header__nav_links-language{
+.header__nav_links-language {
   display: flex;
   align-items: center;
   gap: 6px;
   cursor: pointer;
 }
+.header__hero {
+  margin-top: 130px;
+  position: relative;
+  z-index: 2;
+}
+.header__hero-top {
+  font-size: 20px;
+  font-weight: bold;
+  color: #df6951;
+  margin-bottom: 24px;
+}
+.header__hero h1 {
+  position: relative;
+  font-family: "Volkhow";
+  font-size: 84px;
+  line-height: 89px;
+  letter-spacing: -4px;
+  width: 545px;
+  margin-bottom: 30px;
+  z-index: 2;
+}
+.header__hero-decor {
+  position: absolute;
+  z-index: 1;
+  top: 120px;
+  left: 200px;
+}
 
+.header__hero-text {
+  width: 477px;
+  color: #5e6282;
+  line-height: 30px;
+  margin-bottom: 34px;
+  font-weight: 500;
+}
+.header__hero_buttons {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+.header__hero_buttons-more {
+  padding: 14px 22px;
+  background: #f1a501;
+  border-radius: 10px;
+  color: #fff;
+}
+.header__hero_buttons-play {
+  color: #686d77;
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+.header__hero_buttons-play::before {
+  content: "";
+  display: block;
+  width: 52px;
+  height: 52px;
+  background-image: url(./img/icon_play.svg);
+  box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+  border-radius: 50%;
+}
+
+.header__decor {
+  position: absolute;
+  z-index: 1;
+  top: -88px;
+  right: -160px;
+}
+.header__hero_woman {
+  position: absolute;
+  top: -100px;
+  right: -30px;
+}
