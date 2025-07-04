@@ -282,3 +282,139 @@ header {
   gap: 14px;
   margin-left: 20px;
 }
+
+.trip {
+  margin-top: 186px;
+  display: flex;
+  align-items: center;
+}
+
+.trip__texts-top {
+  font-size: 18px;
+  color: #5e6282;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.trip__texts-h2 {
+  font-family: "Volkhov";
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: initial;
+  margin-top: 15px;
+  margin-bottom: 31px;
+  width: 511px;
+}
+.trip__texts_value {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  width: 395px;
+}
+.trip__texts_value-m {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.trip__texts_value_texts-top {
+  font-weight: bold;
+  color: #5e6282;
+}
+.trip__texts_value_texts-p {
+  color: #5e6282;
+}
+.trip__image-decor {
+  position: absolute;
+  right: -300px;
+  top: -80px;
+  z-index: 1;
+}
+.trip__image {
+  position: relative;
+  margin-left: 120px;
+}
+.trip__image_box {
+  width: 370px;
+  height: 400px;
+  padding: 20px 24px 31px 24px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 26px;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+}
+
+.trip__image_box-top {
+  font-size: 18px;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 13px;
+}
+.trip__image_box_texts {
+  display: flex;
+  gap: 16px;
+  color: #84829a;
+}
+.trip__image_box_icons {
+  display: flex;
+  gap: 18px;
+  margin-top: 21px;
+  margin-bottom: 30px;
+}
+.trip__image_box_info {
+  display: flex;
+  justify-content: space-between;
+}
+.trip__image_box_info-people {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #84829a;
+}
+.trip__image_smallbox {
+  width: 263px;
+  height: 129px;
+  padding: 18px 20px 22px 20px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: -114px;
+  top: 220px;
+  display: flex;
+  z-index: 2;
+  border-radius: 18px;
+}
+.trip__image_smallbox img {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+}
+
+.trip__image_smallbox_texts-top {
+  font-size: 14px;
+  color: #84829a;
+}
+.trip__image_smallbox_texts-article {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.trip__image_smallbox_texts-procent {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.trip__image_smallbox_texts-procent span {
+  color: #8a79df;
+}
+.trip__image_smallbox_texts-line {
+  width: 156px;
+  height: 5px;
+  background: #f5f5f5;
+  border-radius: 30px;
+}
+.trip__image_smallbox_texts-line-purple {
+  height: 5px;
+  width: 73px;
+  border-radius: 30px;
+  background: #8a79df;
+}
