@@ -418,3 +418,89 @@ header {
   border-radius: 30px;
   background: #8a79df;
 }
+.testimonials {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  gap: 164px;
+}
+
+.testimonials__left-top {
+  font-size: 18px;
+  color: #5e6282;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.testimonials__left-h2 {
+  font-family: "Volkhov";
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: initial;
+  margin-top: 8px;
+  margin-bottom: 82px;
+  width: 409px;
+}
+.testimonials__left_dots {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.testimonials__left_dots-dot {
+  width: 12px;
+  height: 12px;
+  background: #e5e5e5;
+  border-radius: 12px;
+}
+.testimonials__left_dots-dot_cheked {
+  background: #39425d;
+}
+
+.testimonials__right {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+.testimonials__right_card {
+  width: 504px;
+  height: 245px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 80px rgba(0, 0, 0, 0.2);
+  padding: 24px 34px 24px 34px;
+  color: #5e6282;
+  position: relative;
+}
+.testimonials__right_card-ava {
+  position: absolute;
+  top: -26px;
+  left: -26px;
+}
+.testimonials__right_card-comment {
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+.testimonials__right_card-initials {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.testimonials__right_card-place {
+  font-style: 14px;
+}
+.testimonials__right_card_aktive {
+  z-index: 100;
+
+}
+.testimonials__right_card-ava_unaktive {
+  display: none;
+}
+
+.testimonials__right_card_unaktive{
+  position: absolute;
+  bottom: -100px;
+  right: -50px;
+}
