@@ -461,7 +461,6 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
-
 }
 .testimonials__right_card {
   width: 504px;
@@ -493,14 +492,32 @@ header {
 }
 .testimonials__right_card_aktive {
   z-index: 100;
-
 }
 .testimonials__right_card-ava_unaktive {
   display: none;
 }
 
-.testimonials__right_card_unaktive{
+.testimonials__right_card_unaktive {
   position: absolute;
   bottom: -100px;
   right: -50px;
+}
+.brands {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 213px;
+}
+.brands__brand {
+  width: 241px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.brands__brand:hover {
+  background: #fff;
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.2);
 }
